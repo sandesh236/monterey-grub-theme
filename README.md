@@ -1,0 +1,1 @@
+# monterey-grub-theme
