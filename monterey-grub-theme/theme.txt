@@ -3,7 +3,7 @@ desktop-image: "background.png"
 
 
 title-text:" "
-message-font: "Poppins Regular 14"
+message-font: "Poppins Regular 16"
 message-color: "#757575"
 terminal-left: "0"
 terminal-top: "0"
@@ -14,21 +14,22 @@ terminal-border: "0"
 
 + image {
 		top = 12%
-		left = 50%-80
+		left = 45%
+		align = "center"
 		width = 160
 		height =40
 		file = "title.png"
 }
 
 +label{
-text="select your preferred os"
-font = "Poppins Regular 16"
+text="choose your operating system"
+font = "Poppins Regular 18"
 color="#F3F3F3"
 top=30%-30
-left = 50%-80
+left = 45%-20
 align = "center"
 width=160
-height= 40
+height=40
 
 
 
@@ -49,7 +50,7 @@ height= 40
   item_icon_space = 12
   item_spacing = 8
   menu_pixmap_style = "boot_menu_*.png"
-  item_font = "Poppins Regular 18"
+  item_font = "Poppins Regular 20"
   item_color = "#EDEDED"
   selected_item_color= "#DDDDDD"
   selected_item_pixmap_style= "select_bkg_*.png"
